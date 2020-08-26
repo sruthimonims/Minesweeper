@@ -1,0 +1,39 @@
+body {
+  background: black;
+  color: #dddddd;
+  font-family: "OpenSans-Regular";
+  text-align: center;
+}
+/**Header code starts
+=============================================================================================*/
+h1 {
+  text-align: center;
+  font-size: 14pt;
+  font-weight: normal;
+}
+/**Middle code starts
+=============================================================================================*/
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid tr td{
+  border:1px solid white;
+  background: #999999;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+#grid tr td.clicked {
+    background: #333333;
+}
+
+#grid tr td.mine {
+    background: #FF0000;
+}
+
+button {
+  margin: 12px;
+}
